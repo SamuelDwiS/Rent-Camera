@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('serial_number')->unique();
             $table->string('condition');
             $table->string('status');
-            $table->int('stock');
+            $table->integer('stock');
             $table->timestamps();
         });
     }
